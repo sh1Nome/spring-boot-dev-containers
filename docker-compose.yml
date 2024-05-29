@@ -3,8 +3,6 @@ services:
   jdk:
     image: 'eclipse-temurin:17-jdk-alpine'
     container_name: 'jdk'
-    volumes:
-      - './root:/root'
     entrypoint: sh -c 'trap exit TERM; tail -f /dev/null & wait $!'
   db:
     image: 'postgres:16-alpine'
