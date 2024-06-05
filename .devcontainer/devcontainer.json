@@ -7,6 +7,7 @@
     "customizations": {
         "vscode": {
             "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash",
                 "terminal.integrated.mouseWheelScrollSensitivity": 0.3,
                 "java.jdt.ls.java.home": "/opt/java/openjdk",
                 "editor.renderWhitespace": "all",
