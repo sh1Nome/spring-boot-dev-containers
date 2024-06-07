@@ -1,2 +1,5 @@
+.cache
+.dotnet
+.gradle
 .vscode-server
 .dotnet
