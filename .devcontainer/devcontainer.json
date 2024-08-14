@@ -15,7 +15,8 @@
                     "lang": "ja"
                 },
                 "redhat.telemetry.enabled": false,
-                "editor.formatOnSave": true
+                "editor.formatOnSave": true,
+                "java.debug.settings.hotCodeReplace": "auto"
             },
             "extensions": [
                 "vmware.vscode-boot-dev-pack",
